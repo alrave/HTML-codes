@@ -1,0 +1,36 @@
+<!--
+*[INPUT TYPES ="number, password, time, range"]
+-->
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<form>
+    <label for="range">حدد الكمية المطلوبة</label>
+    <input type="range" id="volume" name="volume" min="0" max="100">
+    <span id="volumeValue">50</span><br><br>
+
+    <label for="num">حدد كمية معينة</label>
+    <input type="number"><br><br>
+    <label for="pass">اكتب الباسورد</label>
+    <input type="password"><br><br>
+    <label for="time">ما هو الوقت في بلدك الان</label>
+    <input type="time">
+</form>
+
+<script> 
+const volumeInput = document.getElementById("volume");
+  const volumeValue = document.getElementById("volumeValue");
+
+  // Display the initial value on page load
+  volumeValue.textContent = volumeInput.value;
+
+  // Update the value displayed whenever the slider changes
+  volumeInput.addEventListener("input", () => {
+    volumeValue.textContent = volumeInput.value;
+  });
+</script> 
+</body>
+</html>
