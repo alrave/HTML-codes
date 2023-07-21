@@ -1,0 +1,24 @@
+<!--
+[HTML STYLES]
+Font size => %, PX
+Colors => color name, HEX, RGB, HSL
+-->
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p style="font-size: 50px;">انا الحجم بالبكسل</p>
+<p style="font-size: 80%;">انا الحجم بالنسبة المئوية</p>
+
+
+<p style="color: IndianRed;">انا الحجم بالنسبة المئوية</p>
+<p style="color: red;">انا الحجم بالنسبة المئوية</p>
+<p style="color: #EB11DC ;">انا الحجم بالنسبة المئوية</p>
+<p style="color: rgb(150, 255, 0);">انا الحجم بالنسبة المئوية</p>
+<p style="color: hsl(20, 80%, 50%);">انا الحجم بالنسبة المئوية</p>
+
+<script> 
+</script> 
+</body>
+</html>
