@@ -1,0 +1,35 @@
+<!--
+[HTML Class]
+getElementsByClassName => for access elements with a specific class name
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <button onclick="myFunction()">Delete city</button>
+
+  <h2 class="city">Baghdad</h2>
+  <p>Baghdad is the capital of Iraq</p>
+  <h2 class="city">Riad</h2>
+  <p>Riad is the capital of KSA</p>
+  <h2 class="city">Cairo</h2>
+  <p>Cairo is the capital of Egypt</p>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementsByClassName("city")
+      for (var i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
