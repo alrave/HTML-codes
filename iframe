@@ -1,0 +1,26 @@
+<!--
+[iframe]
+- An HTML iframe is used to display
+  a web page within a web page.
+  for page , for links.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+  </style>
+</head>
+
+<body>
+<iframe name="myframe" style="border: none;" height="500" width="100%"></iframe>
+<p><a href="https://alrawi.ru/" target="myframe">My site</a></p>
+<p><a href="https://alrawi.store/" target="myframe">My store</a></p>
+  <script>
+
+  </script>
+
+</body>
+
+</html>
