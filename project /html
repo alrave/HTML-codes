@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Mustafa Alrawi - Web Programmer</title>
+<body>
+</head>
+<body>
+    <div class="container">
+        <div class="about-me">
+          <div class="left-side">
+            <img src="myphoto.png" alt="Mustafa Alrawi" class="profile-img">
+            <p class="github-link">Check out my GitHub profile: <a href="https://github.com/codealrawi" target="_blank">Github</a></p>
+          </div>
+          <div class="right-side">
+            <div class="intro">
+              <h1>Hi, I'm Mustafa Alrawi</h1>
+              <p>I'm a passionate web programmer with a strong focus on creating clean, elegant, and efficient solutions. I specialize in turning design concepts into interactive and functional websites. With expertise in HTML, CSS, JavaScript, and more, I'm dedicated to delivering high-quality web experiences that meet the needs of both clients and users.</p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>&copy; All rights reserved. by <a href="https://alrawi.ru/" target="_blank">Mustafa Alrawi</a></p>
+        </footer>
+      </div>
+</body>
+</html>
